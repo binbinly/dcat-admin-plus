@@ -17,3 +17,16 @@
 
 - [laravel 9](https://learnku.com/docs/laravel/9.x/installation/12200#1dabc3)
 - [dcat-admin](https://learnku.com/docs/dcat-admin/2.x/install/8081)
+
+## 其他
+
+### 引用本地包
+
+```json
+"repositories": [
+        {
+            "type": "path",
+            "url": "./extensions/dcat-admin-plus"
+        }
+    ]
+```
